@@ -4,7 +4,7 @@ PORT=$2
 CHAT=$3
 
 # Clone Odoo directory
-git clone --depth=1 https://github.com/cpabooks/odoo-14-docker-compose $DESTINATION
+git clone --depth=1 https://github.com/Torikul0x1/odoo-14-docker-compose $DESTINATION
 rm -rf $DESTINATION/.git
 
 # Create PostgreSQL directory
